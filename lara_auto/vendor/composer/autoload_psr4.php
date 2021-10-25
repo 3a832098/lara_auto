@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Ncut\\LaraAuto\\' => array($baseDir . '/src'),
+    'Demo\\' => array($baseDir . '/src/Demo'),
 );
