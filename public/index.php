@@ -20,4 +20,11 @@ $log->pushHandler(new StreamHandler('path/to/your.log', Logger::WARNING));
 // add records to the log
 $log->warning('Foo');
 $log->error('Bar');
+
+
+require 'path-to-Carbon-directory/autoload.php';
+
+use Carbon\Carbon;
+
+printf("Now: %s", Carbon::now());
 ?>
