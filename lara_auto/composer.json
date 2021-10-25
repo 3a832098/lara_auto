@@ -1,0 +1,16 @@
+{
+    "name": "ncut/lara_auto",
+    "description": "\"homework unit 3\"",
+    "autoload": {
+        "psr-4": {
+            "Ncut\\LaraAuto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GUO CHIH-LING",
+            "email": "s3a832098@student.ncut.edu.tw"
+        }
+    ],
+    "require": {}
+}
