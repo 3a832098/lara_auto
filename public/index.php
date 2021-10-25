@@ -9,4 +9,15 @@
 
 		$mary= new \Demo\Hello\Someone('Mary');
 		$john= new Demo\Hello\Someone('John');
+
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+// create a log channel
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('path/to/your.log', Logger::WARNING));
+
+// add records to the log
+$log->warning('Foo');
+$log->error('Bar');
 ?>
